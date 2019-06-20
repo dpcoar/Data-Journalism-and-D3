@@ -1,0 +1,54 @@
+ 
+  
+  .chart::before {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    z-index: -1;
+    display: block;
+    width: 400px;
+    height: 300px;
+    content: " ";
+    opacity: 0.3;
+  }
+  
+  .tooltip {
+    position: absolute;
+    width: 150px;
+    height: 65px;
+    padding: 2px;
+    padding-top: 8px;
+    font: 12px sans-serif;
+    color: white;
+    text-align: center;
+    background: #1c1c1d;
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  .axis-text {
+    font-family: sans-serif;
+    font-weight: bold;
+    fill: black;
+    text-anchor: middle;     
+  }
+
+  .circle {
+    fill:#3f59ee;
+    opacity: .4;
+    pointer-events: all;
+    stroke: .5;
+  }
+  
+  .circleText{
+    font-size:10px;
+    font-family: sans-serif;
+    text-align: center;
+    fill:"white";
+    font-weight:"bold";
+    fill:"white"
+  }
+  
+  
+
+
